@@ -1,0 +1,125 @@
+:root {
+    --main: black;
+    --text: lime;
+    --box: black;
+    --mar: 2.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+  
+body {
+    background-color: black;
+    color: lime;
+}
+
+header {
+    background-color: var(--main);
+    color: var(--text);
+    height: 15vh;
+    text-align: center;
+    background-color: black;
+}
+
+h1 {
+    padding-top: var(--mar);
+}
+
+main {
+    margin: var(--mar);
+}
+
+form {
+    border: 5px solid var(--main);
+    border-radius: 20px;
+    padding: var(--mar);
+    background-color: var(--main);
+    color: var(--text);
+}
+
+h3, h4 {
+    padding: var(--mar);
+}
+
+ol {
+    list-style-type: none;
+    text-align: center;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: var(--mar);
+    box-sizing: border-box;
+    margin-top: 10%;
+}
+
+th {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5%;
+    height: fit-content;
+}
+
+.five {
+    border: 5px solid var(--box);
+    border-radius: 20px;
+    display: flex;    
+    margin: 1%;
+    font-size: 20px;
+    padding: 1%;
+}
+
+.forecast {
+    display: flex;
+}
+
+.searchbtn {
+  appearance: button;
+  background-color: rgb(68, 67, 67);
+  color: lime;
+  display: inline-block;
+  font-size: 25px;
+  line-height: 20px;
+  margin-top: 10%;
+  padding: 13px 16px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.current {
+    background-color: var(--box);
+    color: var(--text);
+    border-radius: 20px;
+    padding: var(--mar);
+    height: fit-content;
+}
+
+.hidden {
+    display: none;
+}
+
+.current-info {
+    font-size: 25px;
+}
+
+.recallBtn {
+    margin-top: var(--mar);
+    margin-bottom: var(--mar);
+    font-size: 25px;
+    background-color:rgb(68, 67, 67);
+    padding: var(--mar);
+    color: var(--text);
+    border: transparent;
+    width: 100%;
+}
+
+input {
+    background-color: white;
+}
